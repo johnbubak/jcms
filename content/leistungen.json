@@ -1,0 +1,33 @@
+{
+  "de": { "titel": "Leistungen", "untertitel": "Was wir bauen" },
+  "en": { "titel": "Services", "untertitel": "What we build" },
+  "items": [
+    {
+      "id": "cloud-architecture",
+      "icon": "◆",
+      "titel_de": "Cloud Architecture",
+      "titel_en": "Cloud Architecture",
+      "text_de": "Skalierbare, ausfallsichere Infrastruktur aus Containern, Proxies und deklarativen Deployments.",
+      "text_en": "Scalable, resilient infrastructure built from containers, proxies and declarative deployments.",
+      "tags": ["Docker", "Nginx", "Infrastructure as Code"]
+    },
+    {
+      "id": "api-integration",
+      "icon": "◆",
+      "titel_de": "API Integration",
+      "titel_en": "API Integration",
+      "text_de": "Nahtlose Kopplung heterogener Systeme über REST-APIs, Webhooks und Event-Bus-Architekturen.",
+      "text_en": "Seamless coupling of heterogeneous systems via REST APIs, webhooks and event-bus architectures.",
+      "tags": ["REST", "Webhooks", "Middleware"]
+    },
+    {
+      "id": "automation",
+      "icon": "◆",
+      "titel_de": "Automation",
+      "titel_en": "Automation",
+      "text_de": "Event-getriebene Workflows und State Machines, die manuelle Routinearbeit zuverlässig eliminieren.",
+      "text_en": "Event-driven workflows and state machines that reliably eliminate manual routine work.",
+      "tags": ["State Machines", "CI/CD", "Scripting"]
+    }
+  ]
+}

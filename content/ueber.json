@@ -1,0 +1,30 @@
+{
+  "de": {
+    "titel": "Über",
+    "untertitel": "Systems Architect",
+    "haupttext": "ACME DevStudio. Systems Architect & Automation Engineer.",
+    "subtext": "Wir entwerfen schlanke, langlebige Systeme: klare Datenmodelle, austauschbare Oberflächen und keine unnötigen Abhängigkeiten.",
+    "location": "Remote / Worldwide",
+    "verfuegbar_de": "Offen für Open-Source-Kollaboration",
+    "verfuegbar_en": "Open for open-source collaboration"
+  },
+  "en": {
+    "titel": "About",
+    "untertitel": "Systems Architect",
+    "haupttext": "ACME DevStudio. Systems Architect & Automation Engineer.",
+    "subtext": "We design lean, long-lived systems: clear data models, swappable interfaces and no unnecessary dependencies.",
+    "location": "Remote / Worldwide",
+    "verfuegbar_de": "Offen für Open-Source-Kollaboration",
+    "verfuegbar_en": "Open for open-source collaboration"
+  },
+  "foto": "/assets/avatar-placeholder.svg",
+  "foto_alt_de": "ACME DevStudio",
+  "foto_alt_en": "ACME DevStudio",
+  "vita": [
+    { "jahr": "2016", "moment": "Erste file-driven CMS-Prototypen", "warum_de": "Weil Content und Code getrennt gehören.", "warum_en": "Because content and code belong apart." },
+    { "jahr": "2019", "moment": "Containerisierte Deployments im Produktivbetrieb", "warum_de": "Reproduzierbar statt zufällig funktionierend.", "warum_en": "Reproducible instead of accidentally working." },
+    { "jahr": "2024", "moment": "JCMS Framework v1.0", "warum_de": "Ein CMS, das man in zehn Minuten versteht.", "warum_en": "A CMS you can understand in ten minutes." }
+  ],
+  "tags_de": ["Vanilla JS", "JSON-First", "Zero-Build", "Self-Hosting", "Automation"],
+  "tags_en": ["Vanilla JS", "JSON-First", "Zero-Build", "Self-Hosting", "Automation"]
+}

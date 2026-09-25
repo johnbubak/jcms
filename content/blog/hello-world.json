@@ -1,0 +1,21 @@
+{
+  "titel_de": "Hallo, JCMS",
+  "titel_en": "Hello, JCMS",
+  "datum": "2026-01-15",
+  "lesedauer_de": "3 min",
+  "lesedauer_en": "3 min",
+  "kategorie_de": "Release",
+  "kategorie_en": "Release",
+  "inhalt_de": [
+    { "typ": "p", "text": "JCMS ist ein bewusst minimales Content Management System. Inhalte liegen als JSON-Dateien vor, das Theme ist eine isolierte Schicht und die Shell bleibt unter 100 Zeilen HTML." },
+    { "typ": "h2", "text": "Drei Prinzipien" },
+    { "typ": "ul", "items": ["Content = JSON", "Theme = austauschbarer Ordner", "Shell = schlankes, unveränderliches HTML"] },
+    { "typ": "p", "text": "Es gibt keinen Build-Schritt und keine Datenbank. Versioniere deinen gesamten Content mit Git und deploye mit jedem statischen Webserver." }
+  ],
+  "inhalt_en": [
+    { "typ": "p", "text": "JCMS is a deliberately minimal content management system. Content lives as JSON files, the theme is an isolated layer, and the shell stays under 100 lines of HTML." },
+    { "typ": "h2", "text": "Three principles" },
+    { "typ": "ul", "items": ["Content = JSON", "Theme = swappable folder", "Shell = lean, immutable HTML"] },
+    { "typ": "p", "text": "There is no build step and no database. Version your entire content with Git and deploy on any static web server." }
+  ]
+}

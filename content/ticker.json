@@ -1,0 +1,6 @@
+{
+  "de": ["Zero-Build", "Zero-Database", "Vanilla JS", "JSON-First", "Bilingual", "SPA Router", "Theme Isolation", "SEO Ready", "MIT License"],
+  "en": ["Zero-Build", "Zero-Database", "Vanilla JS", "JSON-First", "Bilingual", "SPA Router", "Theme Isolation", "SEO Ready", "MIT License"],
+  "separator": "//",
+  "speed": "35s"
+}

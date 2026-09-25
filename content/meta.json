@@ -1,0 +1,19 @@
+{
+  "site_name": "ACME DevStudio",
+  "tagline_de": "Systems that think. Web that works.",
+  "tagline_en": "Systems that think. Web that works.",
+  "description_de": "ACME DevStudio — Open-Source-Showcase für das JCMS Framework. Dateibasiertes, datenbankfreies JSON-CMS mit SPA-Architektur.",
+  "description_en": "ACME DevStudio — open-source showcase for the JCMS framework. File-driven, database-free JSON CMS with SPA architecture.",
+  "url": "https://example.com",
+  "email": "hello@example.com",
+  "github": "johnbubak",
+  "location_de": "Remote / Worldwide",
+  "location_en": "Remote / Worldwide",
+  "author": "ACME DevStudio",
+  "locale_de": "de_DE",
+  "locale_en": "en_US",
+  "og_image": "/assets/avatar-placeholder.svg",
+  "schema_type": "Organization",
+  "footer_tagline_de": "Systems that think. Web that works.",
+  "footer_tagline_en": "Systems that think. Web that works."
+}

@@ -1,0 +1,27 @@
+{
+  "_comment": "JCMS Manifest — defines sections, order, layout engines and navigation",
+  "version": "1.0.0",
+  "sections": [
+    { "id": "hero",       "route": "/",          "layout": "hero",      "file": "hero.json" },
+    { "id": "leistungen", "route": "/leistungen", "layout": "grid-3",    "file": "leistungen.json" },
+    { "id": "manifest",   "route": null,          "layout": "manifest",  "file": "manifest.json" },
+    { "id": "projekte",   "route": "/projekte",   "layout": "grid-2",    "file": "projekte.json" },
+    { "id": "ueber",      "route": "/ueber",      "layout": "text-split","file": "ueber.json" },
+    { "id": "blog",       "route": "/blog",       "layout": "blog-list", "file": "blog/index.json" },
+    { "id": "kontakt",    "route": "/kontakt",    "layout": "kontakt",   "file": "kontakt.json" }
+  ],
+  "nav": [
+    { "href": "/",           "label_de": "Start",      "label_en": "Home" },
+    { "href": "/leistungen", "label_de": "Leistungen", "label_en": "Services" },
+    { "href": "/projekte",   "label_de": "Projekte",   "label_en": "Projects" },
+    { "href": "/ueber",      "label_de": "Über",       "label_en": "About" },
+    { "href": "/blog",       "label_de": "Blog",       "label_en": "Blog" },
+    { "href": "/kontakt",    "label_de": "Kontakt",    "label_en": "Contact" }
+  ],
+  "footer_nav": [
+    { "href": "/leistungen", "label_de": "Leistungen", "label_en": "Services" },
+    { "href": "/projekte",   "label_de": "Projekte",   "label_en": "Projects" },
+    { "href": "/blog",       "label_de": "Blog",       "label_en": "Blog" },
+    { "href": "/kontakt",    "label_de": "Kontakt",    "label_en": "Contact" }
+  ]
+}

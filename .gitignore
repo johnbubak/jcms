@@ -1,0 +1,31 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node (only if you add tooling locally)
+node_modules/
+
+# Secrets / local environment
+.env
+.env.*
+*.local
+
+# Logs
+*.log
+
+# Local-only assets (keep real photos out of the repo)
+assets/*.webp
+assets/*.jpg
+assets/*.jpeg
+assets/*.png

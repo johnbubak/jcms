@@ -1,0 +1,28 @@
+{
+  "de": {
+    "tagline": "Systeme die denken. Web das funktioniert.",
+    "untertitel": "Open-Source JSON Content Management System",
+    "beschreibung": "JCMS trennt Content, Theme und Shell radikal: Inhalte sind JSON, das Design ist eine austauschbare Schicht, die Shell sind rund 80 Zeilen HTML. Kein Build, keine Datenbank, kein Framework-Overhead.",
+    "cta_primary": "Leistungen ansehen",
+    "cta_primary_href": "/leistungen",
+    "cta_secondary": "Kontakt aufnehmen",
+    "cta_secondary_href": "/kontakt"
+  },
+  "en": {
+    "tagline": "Systems that think. Web that works.",
+    "untertitel": "Open-Source JSON Content Management System",
+    "beschreibung": "JCMS radically separates content, theme and shell: content is JSON, design is a swappable layer, and the shell is roughly 80 lines of HTML. No build step, no database, no framework overhead.",
+    "cta_primary": "View Services",
+    "cta_primary_href": "/leistungen",
+    "cta_secondary": "Get in touch",
+    "cta_secondary_href": "/kontakt"
+  },
+  "stats": [
+    { "wert": "99.9%", "label_de": "Uptime", "label_en": "Uptime" },
+    { "wert": "100+",  "label_de": "Nodes",  "label_en": "Nodes" },
+    { "wert": "0",     "label_de": "Bloat",  "label_en": "Bloat" }
+  ],
+  "foto": "/assets/avatar-placeholder.svg",
+  "foto_alt_de": "ACME DevStudio",
+  "foto_alt_en": "ACME DevStudio"
+}

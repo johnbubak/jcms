@@ -1,0 +1,33 @@
+{
+  "de": {
+    "titel": "Kontakt",
+    "untertitel": "Lass uns reden",
+    "intro": "Kein Formular-Bingo. Ein paar konkrete Angaben genügen, um zu prüfen, ob es passt.",
+    "success_titel": "Nachricht erhalten.",
+    "success_text": "Wir melden uns zeitnah.",
+    "error_text": "Übertragungsfehler. Bitte direkt per E-Mail an hello@example.com"
+  },
+  "en": {
+    "titel": "Contact",
+    "untertitel": "Let's talk",
+    "intro": "No form bingo. A few concrete details are enough to see whether we're a fit.",
+    "success_titel": "Message received.",
+    "success_text": "We'll get back to you shortly.",
+    "error_text": "Submission error. Please email hello@example.com directly"
+  },
+  "fragen": [
+    { "id": "name", "typ": "text", "frage_de": "Name", "frage_en": "Name", "placeholder_de": "Dein Name", "placeholder_en": "Your name", "pflicht": true },
+    { "id": "problem", "typ": "textarea", "frage_de": "Worum geht es?", "frage_en": "What is it about?", "placeholder_de": "Projekt, Frage, Kooperation...", "placeholder_en": "Project, question, collaboration...", "pflicht": true },
+    { "id": "zeitrahmen", "typ": "choice", "frage_de": "Zeitrahmen", "frage_en": "Timeline", "optionen": [
+        { "wert": "sofort",  "label_de": "Sofort",         "label_en": "Immediately" },
+        { "wert": "quartal", "label_de": "Dieses Quartal", "label_en": "This quarter" },
+        { "wert": "offen",   "label_de": "Offen",          "label_en": "Flexible" }
+      ], "pflicht": false },
+    { "id": "kontakt", "typ": "text", "frage_de": "E-Mail", "frage_en": "Email", "placeholder_de": "name@example.com", "placeholder_en": "name@example.com", "pflicht": true }
+  ],
+  "submit_de": "Absenden",
+  "submit_en": "Submit",
+  "direkt_de": "Oder direkt:",
+  "direkt_en": "Or directly:",
+  "email": "hello@example.com"
+}

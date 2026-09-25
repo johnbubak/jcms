@@ -1,0 +1,19 @@
+{
+  "de": { "titel": "Blog", "untertitel": "Notes & Releases" },
+  "en": { "titel": "Blog", "untertitel": "Notes & Releases" },
+  "posts": [
+    {
+      "slug": "hello-world",
+      "file": "hello-world.json",
+      "titel_de": "Hallo, JCMS",
+      "titel_en": "Hello, JCMS",
+      "datum": "2026-01-15",
+      "lesedauer_de": "3 min",
+      "lesedauer_en": "3 min",
+      "kategorie_de": "Release",
+      "kategorie_en": "Release",
+      "teaser_de": "Warum wir ein CMS ohne Datenbank, ohne Build-Schritt und ohne Abhängigkeiten gebaut haben.",
+      "teaser_en": "Why we built a CMS without a database, build step, or dependencies."
+    }
+  ]
+}

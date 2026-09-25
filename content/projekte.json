@@ -1,0 +1,39 @@
+{
+  "de": { "titel": "Projekte", "untertitel": "Referenz-Implementierungen" },
+  "en": { "titel": "Projects", "untertitel": "Reference implementations" },
+  "items": [
+    {
+      "id": "api-gateway",
+      "titel_de": "Edge API Gateway",
+      "titel_en": "Edge API Gateway",
+      "text_de": "Zentrales Gateway mit Rate-Limiting, Auth-Proxy und automatisiertem TLS für verteilte Microservices.",
+      "text_en": "Central gateway with rate limiting, auth proxy and automated TLS for distributed microservices.",
+      "status_de": "Live",
+      "status_en": "Live",
+      "tags": ["Nginx", "JWT", "Docker"],
+      "typ": "infrastruktur"
+    },
+    {
+      "id": "iot-pipeline",
+      "titel_de": "IoT Data Pipeline",
+      "titel_en": "IoT Data Pipeline",
+      "text_de": "Event-getriebene Pipeline für 100+ Sensoren mit MQTT-Ingest, Zeitreihen-Storage und Alarmierung.",
+      "text_en": "Event-driven pipeline for 100+ sensors with MQTT ingest, time-series storage and alerting.",
+      "status_de": "Produktiv",
+      "status_en": "In Production",
+      "tags": ["MQTT", "Time Series", "Python"],
+      "typ": "infrastruktur"
+    },
+    {
+      "id": "analytics-dashboard",
+      "titel_de": "Analytics Dashboard",
+      "titel_en": "Analytics Dashboard",
+      "text_de": "Schlankes Echtzeit-Dashboard ohne Framework-Overhead — direkte DOM-Updates in Vanilla JS.",
+      "text_en": "Lightweight real-time dashboard without framework overhead — direct DOM updates in vanilla JS.",
+      "status_de": "Beta",
+      "status_en": "Beta",
+      "tags": ["Vanilla JS", "SSE", "Charts"],
+      "typ": "produkt"
+    }
+  ]
+}

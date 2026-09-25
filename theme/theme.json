@@ -1,0 +1,77 @@
+{
+  "_comment": "JCMS default theme — Industrial-Hacker. Swap this folder to change the design.",
+  "name": "industrial-hacker",
+  "author": "Jan-Lukas Bobka",
+  "version": "1.0.0",
+
+  "fonts": {
+    "display": "'Bebas Neue', 'Impact', sans-serif",
+    "body": "'JetBrains Mono', 'Courier New', monospace",
+    "mono": "'JetBrains Mono', 'Courier New', monospace"
+  },
+
+  "colors": {
+    "dark": {
+      "--bg":           "#080808",
+      "--bg-2":         "#0f0f0f",
+      "--bg-3":         "#161616",
+      "--text":         "#F0EDE8",
+      "--text-muted":   "#888888",
+      "--text-dim":     "#444444",
+      "--accent":       "#CC0000",
+      "--accent-hover": "#FF1111",
+      "--accent-dim":   "rgba(204,0,0,0.15)",
+      "--border":       "#1e1e1e",
+      "--border-light": "#2a2a2a",
+      "--header-bg":    "rgba(8,8,8,0.92)",
+      "--grain-opacity":"0.04",
+      "--grid-color":   "rgba(204,0,0,0.04)",
+      "--selection-bg": "#CC0000",
+      "--selection-fg": "#F0EDE8"
+    },
+    "light": {
+      "--bg":           "#F0EDE8",
+      "--bg-2":         "#E8E4DC",
+      "--bg-3":         "#DDD8CE",
+      "--text":         "#080808",
+      "--text-muted":   "#555555",
+      "--text-dim":     "#999999",
+      "--accent":       "#CC0000",
+      "--accent-hover": "#AA0000",
+      "--accent-dim":   "rgba(204,0,0,0.10)",
+      "--border":       "#D4CFC8",
+      "--border-light": "#E0DBD4",
+      "--header-bg":    "rgba(240,237,232,0.92)",
+      "--grain-opacity":"0.02",
+      "--grid-color":   "rgba(204,0,0,0.06)",
+      "--selection-bg": "#CC0000",
+      "--selection-fg": "#F0EDE8"
+    }
+  },
+
+  "layout": {
+    "max_width":    "1200px",
+    "section_pad":  "clamp(4rem,8vw,8rem) clamp(1.5rem,4vw,3rem)",
+    "header_height":"64px",
+    "grid_gap":     "1.5rem",
+    "border_radius":"0px"
+  },
+
+  "animation": {
+    "transition":      "0.3s ease",
+    "transition_slow": "0.6s ease",
+    "grain_enabled":   true,
+    "grid_enabled":    true,
+    "marquee_speed":   "40s"
+  },
+
+  "custom_keys": {
+    "wert": { "render": "stat-value", "size": "large", "color": "accent" },
+    "label_de": { "render": "stat-label" },
+    "label_en": { "render": "stat-label" },
+    "jahr": { "render": "timeline-year", "color": "accent" },
+    "moment": { "render": "timeline-moment", "weight": "bold" },
+    "warum_de": { "render": "timeline-note", "color": "muted" },
+    "warum_en": { "render": "timeline-note", "color": "muted" }
+  }
+}

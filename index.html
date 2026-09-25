@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="de" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JCMS</title>
+  <meta name="description" content="">
+  <meta name="robots" content="index, follow">
+
+  <!-- SEO / Open Graph / JSON-LD are populated at runtime from /content/meta.json by app.js -->
+  <link rel="canonical" href="">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=JetBrains+Mono:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap" rel="stylesheet">
+
+  <!-- Theme & Favicon -->
+  <link rel="stylesheet" href="/theme/style.css">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <meta name="theme-color" content="#080808">
+</head>
+<body>
+
+<!-- Grain Overlay -->
+<div id="grain" aria-hidden="true"></div>
+
+<!-- Sticky Header -->
+<header id="site-header" role="banner">
+  <div class="header-inner">
+    <a href="/" class="logo" id="logo" data-brand aria-label="Home">JCMS</a>
+    <nav id="main-nav" aria-label="Main navigation"></nav>
+    <div class="header-actions">
+      <div class="contact-quick" id="header-contact"></div>
+      <button id="lang-toggle" class="toggle-btn" aria-label="Switch language">
+        <span id="lang-label">EN</span>
+      </button>
+      <button id="theme-toggle" class="toggle-btn" aria-label="Toggle theme">
+        <span id="theme-icon">☀</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- Main Content — rendered by app.js -->
+<main id="site-main" role="main" aria-live="polite"></main>
+
+<!-- Footer -->
+<footer id="site-footer" role="contentinfo">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <span class="logo-text" data-brand>JCMS</span>
+      <span class="footer-tagline" id="footer-tagline"></span>
+    </div>
+    <nav class="footer-nav" id="footer-nav" aria-label="Footer navigation"></nav>
+    <div class="footer-legal">
+      <button onclick="window.print()" class="print-btn" aria-label="Print page">
+        Print →
+      </button>
+    </div>
+    <div class="footer-copy">
+      <span>© <span id="year"></span> <span data-brand>JCMS</span></span>
+      <span class="footer-powered">
+        Built with <a href="https://github.com/johnbubak/jcms" target="_blank" rel="noopener noreferrer">JCMS</a>
+      </span>
+    </div>
+  </div>
+</footer>
+
+<script src="/app.js"></script>
+</body>
+</html>
