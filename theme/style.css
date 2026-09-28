@@ -611,16 +611,19 @@ a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
 }
 
 /* Vita Timeline */
-.vita-timeline { display: flex; flex-direction: column; gap: 0; margin-top: 1rem; }
+.vita-timeline {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  border-left: 2px solid var(--border);
+}
 
 .vita-item {
   display: grid;
-  grid-template-columns: 80px 1fr;
-  gap: 1rem;
-  padding: 1.25rem 0;
-  border-left: 2px solid var(--border);
-  padding-left: 1.25rem;
-  margin-left: 40px;
+  grid-template-columns: 96px minmax(0, 1fr);
+  column-gap: 1.25rem;
+  align-items: start;
+  padding: 1.15rem 0 1.15rem 1.5rem;
   position: relative;
 }
 .vita-item::before {
@@ -636,16 +639,13 @@ a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
 .vita-jahr {
   font-family: var(--font-display);
   font-size: 1rem;
+  line-height: 1.5;
   color: var(--accent);
   letter-spacing: 0.05em;
-  position: absolute;
-  left: -90px;
-  top: 1.25rem;
-  width: 75px;
-  text-align: right;
+  white-space: nowrap;
 }
 
-.vita-content { display: flex; flex-direction: column; gap: 0.25rem; }
+.vita-content { display: flex; flex-direction: column; gap: 0.3rem; min-width: 0; }
 .vita-moment {
   font-family: var(--font-mono);
   font-weight: 700;
@@ -1018,9 +1018,8 @@ a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
   .blog-post-card { grid-template-columns: 1fr; }
   .post-arrow { display: none; }
   .footer-inner { grid-template-columns: 1fr; }
-  .vita-item { margin-left: 0; }
-  .vita-jahr { position: static; text-align: left; width: auto; }
-  .vita-item { grid-template-columns: 1fr; padding-left: 1rem; }
+  .vita-item { grid-template-columns: 1fr; row-gap: 0.3rem; padding-left: 1.1rem; }
+  .vita-jahr { white-space: normal; }
 }
 
 @media (max-width: 480px) {
